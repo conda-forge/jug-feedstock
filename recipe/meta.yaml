@@ -1,6 +1,6 @@
 {% set name = "Jug" %}
-{% set version = "1.6.7" %}
-{% set sha256 = "a7faba838f3437163ae8459bff96e2c6ca1298312bdb9104c702685178d17269" %}
+{% set version = "1.6.8" %}
+{% set sha256 = "5790c699c04b874dcad5439e0278bc0d5a9bd0c9f889119412b11a9d2c0d3468" %}
 
 package:
   name: {{ name|lower }}
