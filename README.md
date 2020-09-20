@@ -5,7 +5,7 @@ Home: http://github.com/luispedro/jug
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Task based Python workflow system
 
