@@ -14,16 +14,17 @@ source:
 build:
   noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . -vv"
   entry_points:
     - jug = jug.jug:main
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - setuptools
+    - pip
   run:
-    - python
+    - python >=3.6
     - six
     - bottle
     - pyyaml
