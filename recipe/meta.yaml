@@ -1,6 +1,6 @@
 {% set name = "Jug" %}
-{% set version = "2.0.3" %}
-{% set sha256 = "3656355c1f9cd1731065c9d589f66d33653cbe5e0879cbe5d8447b51e4ddb4ec" %}
+{% set version = "2.1.0" %}
+{% set sha256 = "f5f08fe90610965683b5e05ed5528e5844d743e80ea2d475e06ca7374b152a6c" %}
 
 package:
   name: {{ name|lower }}
@@ -19,7 +19,7 @@ build:
     - jug = jug.jug:main
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
