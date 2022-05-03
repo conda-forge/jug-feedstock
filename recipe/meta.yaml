@@ -1,6 +1,6 @@
 {% set name = "Jug" %}
-{% set version = "2.1.1" %}
-{% set sha256 = "8ae7bb45d4495cf3d0dc5dd9df104a35bba2ca83eb4576732cadf8469e7cf1a1" %}
+{% set version = "2.2.0" %}
+{% set sha256 = "d98f7146be43c95f54a86ead8aaf6b6044f667b2da3d77f3c1828a1b0477392b" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - jug = jug.jug:main
 
