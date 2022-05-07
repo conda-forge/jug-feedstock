@@ -36,7 +36,7 @@ test:
     - jug -h
 
 about:
-  home: http://github.com/luispedro/jug
+  home: https://github.com/luispedro/jug
   license: MIT
   license_family: MIT
   license_file: COPYING.MIT
@@ -46,8 +46,10 @@ about:
   description: |
     Jug allows you to write code that is broken up into
     tasks and run different tasks on different processors.
-  doc_url: https://jugreadthedocs.io/
+  doc_url: https://jug.readthedocs.io/
   dev_url: https://github.com/luispedro/jug
+  identifiers:
+    - doi: 10.5334/jors.161
 
 extra:
   recipe-maintainers:
