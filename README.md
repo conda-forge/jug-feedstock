@@ -1,7 +1,7 @@
 About jug
 =========
 
-Home: http://github.com/luispedro/jug
+Home: https://github.com/luispedro/jug
 
 Package license: MIT
 
@@ -11,7 +11,7 @@ Summary: Task based Python workflow system
 
 Development: https://github.com/luispedro/jug
 
-Documentation: https://jugreadthedocs.io/
+Documentation: https://jug.readthedocs.io/
 
 Jug allows you to write code that is broken up into
 tasks and run different tasks on different processors.
