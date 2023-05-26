@@ -1,11 +1,11 @@
-About jug
-=========
+About jug-feedstock
+===================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jug-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/luispedro/jug
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jug-feedstock/blob/main/LICENSE.txt)
 
 Summary: Task based Python workflow system
 
