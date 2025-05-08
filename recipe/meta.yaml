@@ -1,6 +1,6 @@
 {% set name = "Jug" %}
-{% set version = "2.3.1" %}
-{% set sha256 = "6364d6a898bb1a3996505a5ed5bd79d0d830470f552a10a4e44a0de4d0dc3d75" %}
+{% set version = "2.4.0" %}
+{% set sha256 = "07a59efbd6d6d1d7d3e4352cc54db5d9eeee7b245cf0680154f56721e93c7245" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | lower }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - jug = jug.jug:main
