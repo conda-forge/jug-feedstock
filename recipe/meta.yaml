@@ -1,6 +1,6 @@
 {% set name = "Jug" %}
-{% set version = "2.5.0" %}
-{% set sha256 = "91ecd253875f015d0c845b49f66fd4e08c755ceff489f87879d1d7529e8c9869" %}
+{% set version = "2.6.0" %}
+{% set sha256 = "95c923b42c6bfc75a7e172a50a4611132925ef0de0511593182daf9d7a40d8a8" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | lower }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | lower }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
